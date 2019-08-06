@@ -1,28 +1,34 @@
 class Shoe
   def initialize(brand)
-    @brand = brand
-    @color = color
-    @size = size
-    @material = material
-    @condition = condition
+    @brand=brand
+    @color=color
+    @size=size
+    @material=material
+    @condition=condition
 end 
+def brand
+  @brand
+end
 def color=(color)
   @color = color
 end
 def color
   @color
 end
-def page_count=(num)
-  @page_count = num
+def size=(num)
+  @size = num
 end
-def page_count
-@page_count
+def size
+@size
 end
 
-def genre=(genre)
-  @genre = genre
+def material=(material)
+  @material = material
 end
-def genre 
-  @genre
+def material 
+  @material
 end
+
+def condition=(condition)
+  @condition=condition
 end
