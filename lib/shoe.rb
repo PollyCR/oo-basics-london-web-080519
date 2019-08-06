@@ -6,3 +6,4 @@ class Shoe
     @material = material
     @condition = condition
 end 
+end
