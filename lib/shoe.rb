@@ -9,27 +9,27 @@ end
 def brand
   @brand
 end
-def color = (color)
+def color=(color)
   @color = color
 end
 def color
   @color
 end
-def size = (num)
+def size=(num)
   @size = num
 end
 def size
 @size
 end
 
-def material = (material)
+def material=(material)
   @material = material
 end
 def material 
   @material
 end
 
-def condition = (condition)
+def condition=(condition)
   @condition = condition
 end
 end
