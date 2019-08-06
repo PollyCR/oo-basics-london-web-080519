@@ -28,4 +28,8 @@ end
 def condition=(condition)
   @condition = condition
 end
+
+def cobble
+  puts "The shoe has been repaired"
+  
 end
