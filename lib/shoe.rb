@@ -31,5 +31,5 @@ end
 
 def cobble
   puts "The shoe has been repaired"
-  
+  self.condition="New"
 end
